@@ -1,0 +1,25 @@
+\environment book-environment
+
+\usepath[{chapters}]
+
+\usebtxdataset[default][main.bib]
+\setupbtx[dataset=default]
+\definebtxrendering[mainlist][numbering=yes][dataset=default, group=examples]
+
+\definemode[english][keep]
+\definemode[italian][keep]
+
+\startcomponent main
+
+\component cover
+
+\startfrontmatter
+\component toc
+\component introduction
+\stopfrontmatter
+
+\startbodymatter
+\component chapter-1
+\stopbodymatter
+
+\stopproduct

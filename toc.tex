@@ -1,0 +1,22 @@
+\startcomponent toc
+
+\environment book-environment
+
+\startmode[english]
+\starttitle[title={Contents}]
+\stopmode
+
+\startmode[italian]
+\starttitle[title={Sommario}]
+\stopmode
+
+\setuplist[chapter][aligntitle=yes,after=,before=]
+
+\placelist[chapter][criterium=frontpart:all] \blank
+\placelist[chapter][criterium=bodypart:all]  \blank
+\placelist[chapter][criterium=backpart:all]  \blank
+
+\stoptitle
+
+
+\stopcomponent
