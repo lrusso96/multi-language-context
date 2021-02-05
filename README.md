@@ -1,5 +1,8 @@
 # Multi Language in ConTeXt
 
+[![CI](https://github.com/lrusso96/multi-language-context/workflows/CI/badge.svg)](https://github.com/lrusso96/multi-language-context/actions?query=workflow%3ACI)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 This repository is an attempt to set-up a multilanguage environment to typeset ConTeXt documents.
 
 ## Rationale
